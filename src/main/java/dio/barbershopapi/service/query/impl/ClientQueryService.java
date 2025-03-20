@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
+import org.springframework.data.domain.Sort;
 
 @Service
 @AllArgsConstructor
@@ -26,7 +27,7 @@ public class ClientQueryService implements IClientQueryService {
 
     @Override
     public List<ClientEntity> list() {
-        return repository.findAll();
+        return repository.findAll(Sort.by(Sort.Direction.ASC, "name"));
     }
 
     @Override
