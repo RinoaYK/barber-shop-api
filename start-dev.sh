@@ -1,2 +1,3 @@
-gradle clean
-gradle bootRun
+#!/bin/bash
+./gradlew clean
+./gradlew bootRun
