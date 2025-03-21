@@ -41,19 +41,20 @@ Mais informações acesse a documentação da [**Barber API**](https://documente
 ## Diagrama de Classes (Domínio da API)
 
 ```mermaid
-erDiagram
-    CLIENTS {
-        BIGSERIAL id PK
-        VARCHAR(150) name
-        VARCHAR(150) email UK
-        BPCHAR(11) phone UK
+classDiagram
+    class Clients {
+        id: bigserial
+        name: string
+        email: string
+        phone: bpchar
     }
 
-    SCHEDULES {
-        BIGSERIAL id PK
-        TIMESTAMP start_at UK
-        TIMESTAMP end_at UK
-        BIGSERIAL client_id FK
+    class Schedules {
+        id: bigserial
+        startAt: OffsetDateTime
+        endAt: OffsetDateTime
+        clientId: bigserial(fk)
     }
 
-    CLIENTS ||--o{ SCHEDULES : "FK_CLIENTS_SCHEDULES"
+    Clients "1" *-- "N" Schedules    
+```
