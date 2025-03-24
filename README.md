@@ -3,10 +3,9 @@
 ## Visão Geral
 
 Esta API REST foi desenvolvida para fornecer funcionalidades completas para uma barbearia moderna, permitindo o gerenciamento de clientes e agendamentos.
-
-### Veja o site:
-[**Barber Shop deploy**](https://barber-shop-seven-nu.vercel.app/schedules/month)
 Visite o projeto de frontend [**Barber Shop**](https://github.com/RinoaYK/barber-shop-ui).
+### Veja o site:
+[**Barber Shop**](https://barber-shop-seven-nu.vercel.app/schedules/month) deploy.
 
 ## Principais Tecnologias
 - **Java 21**
