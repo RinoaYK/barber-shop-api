@@ -22,7 +22,7 @@ Esta API REST foi desenvolvida para fornecer funcionalidades completas para uma 
 ## Endpoints
 
 Abaixo estão os endpoints disponíveis na API:  
-Mais informações acesse a documentação da [**Barber API**](https://documenter.getpostman.com/view/25826614/2sAYkGKeYU).
+Mais informações acesse a documentação da [**Barber Shop API**](https://documenter.getpostman.com/view/25826614/2sAYkGKeYU).
 
 ### Clientes
 
